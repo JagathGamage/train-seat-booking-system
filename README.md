@@ -432,7 +432,7 @@ MSSQL_SA_PASSWORD=your_password
 > **`DB_PASSWORD` and `MSSQL_SA_PASSWORD` must use the **same password**.**
 >
 > Using different passwords will prevent the backend from connecting to the SQL Server database. 
-> A `.env.example` file is included.
+> A `.env.example` file is included.Use DB_USERNAME=sa
 
 ---
 
