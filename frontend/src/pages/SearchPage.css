@@ -1,0 +1,281 @@
+.searchPage {
+
+
+min-height:100vh;
+
+padding:50px 20px;
+
+
+display:flex;
+
+justify-content:center;
+
+
+background:
+
+linear-gradient(
+135deg,
+#020617,
+#1d4ed8,
+#38bdf8
+);
+
+
+}
+
+
+
+/* Main glass card */
+
+.searchCard {
+
+
+width:100%;
+
+max-width:1000px;
+
+
+border-radius:30px !important;
+
+
+background:
+
+rgba(255,255,255,0.95) !important;
+
+
+backdrop-filter:blur(15px);
+
+
+box-shadow:
+
+0 25px 60px rgba(0,0,0,.35);
+
+
+padding:20px;
+
+
+}
+
+
+
+
+
+.heading {
+
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+
+font-weight:800 !important;
+
+
+color:#0f172a;
+
+
+margin-bottom:40px !important;
+
+
+}
+
+
+
+/* Input fields */
+
+.MuiTextField-root {
+
+
+background:white;
+
+border-radius:12px;
+
+
+}
+
+
+
+
+
+.MuiOutlinedInput-root {
+
+
+border-radius:15px !important;
+
+
+}
+
+
+
+
+/* Search button */
+
+
+.searchButton {
+
+
+margin-top:20px !important;
+
+
+width:320px;
+
+
+height:60px;
+
+
+border-radius:35px !important;
+
+
+font-size:18px !important;
+
+
+font-weight:700 !important;
+
+
+
+background:
+
+linear-gradient(
+90deg,
+#2563eb,
+#06b6d4
+) !important;
+
+
+
+box-shadow:
+
+0 10px 30px rgba(37,99,235,.5);
+
+
+
+transition:.3s !important;
+
+
+}
+
+
+
+
+
+.searchButton:hover {
+
+
+transform:translateY(-5px);
+
+
+box-shadow:
+
+0 15px 40px rgba(37,99,235,.7);
+
+
+
+}
+
+
+
+
+/* Disabled button */
+
+.searchButton.Mui-disabled {
+
+
+background:#cbd5e1 !important;
+
+
+color:#64748b !important;
+
+
+}
+
+
+
+
+/* Loading */
+
+.MuiCircularProgress-root {
+
+
+margin-top:20px;
+
+
+}
+
+
+
+
+
+@media(max-width:600px){
+
+
+.searchPage{
+
+padding:20px 10px;
+
+}
+
+
+
+.searchButton{
+
+
+width:100%;
+
+
+}
+
+
+
+.heading{
+
+
+font-size:28px !important;
+
+
+}
+
+
+
+}
+/* Fixed customField styles */
+/* Custom Field Wrapper */
+/* Label displayed above each field */
+.fieldLabel {
+  font-weight: 600 !important;
+  font-size: 15px !important;
+  color: #1e293b;
+  margin-bottom: 8px !important;
+}
+
+/* Custom Input Container */
+.customInputField {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 100%;
+}
+
+/* Force standard 52px height for both date & dropdowns */
+.customInputField .MuiOutlinedInput-root {
+  height: 52px !important;
+  border-radius: 12px !important;
+}
+
+/* Center text and placeholder inside inputs */
+.customInputField .MuiSelect-select,
+.customInputField .MuiOutlinedInput-input {
+  height: 52px !important;
+  line-height: 52px !important;
+  padding: 0 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  font-size: 15px;
+}
+
+/* Light gray placeholder text for unselected state */
+.placeholderText {
+  color: #94a3b8;
+  font-style: normal;
+}
