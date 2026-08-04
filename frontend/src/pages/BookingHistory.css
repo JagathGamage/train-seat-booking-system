@@ -1,0 +1,239 @@
+.historyPage {
+
+
+    min-height:100vh;
+
+    padding:40px 20px;
+
+    background:
+
+    linear-gradient(
+        135deg,
+        #020617,
+        #1e40af,
+        #38bdf8
+    );
+
+
+}
+
+
+
+.historyContainer {
+
+
+    max-width:1000px;
+
+    margin:auto;
+
+    border-radius:25px !important;
+
+    background:white !important;
+
+    box-shadow:
+    0 20px 50px rgba(0,0,0,0.3);
+
+
+}
+
+
+
+
+
+.historyTitle {
+
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:15px;
+
+    font-weight:700 !important;
+
+    color:#0f172a;
+
+    margin-bottom:30px !important;
+
+
+}
+
+
+
+
+.searchBox {
+
+
+    display:flex;
+
+    gap:20px;
+
+
+}
+
+
+
+
+.searchBox button{
+
+
+    min-width:150px;
+
+    border-radius:30px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #2563eb,
+        #06b6d4
+    );
+
+
+}
+
+
+
+
+.ticketCard {
+
+
+    border-radius:20px !important;
+
+    padding:10px;
+
+    border-left:
+
+    6px solid #2563eb;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+.ticketCard:hover{
+
+
+    transform:translateY(-5px);
+
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.2);
+
+
+}
+
+
+
+
+.ticketHeader{
+
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+
+}
+
+
+
+
+
+.route{
+
+
+    margin-top:25px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:40px;
+
+
+}
+
+
+
+.route div{
+
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    font-weight:600;
+
+
+}
+
+
+
+.arrow{
+
+
+    font-size:30px;
+
+
+}
+
+
+
+
+
+.infoBox{
+
+
+    background:#eff6ff;
+
+    border-radius:15px;
+
+    padding:15px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    color:#1e40af;
+
+
+}
+
+
+
+
+
+@media(max-width:600px){
+
+
+.searchBox{
+
+    flex-direction:column;
+
+}
+
+
+.route{
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+
+}
