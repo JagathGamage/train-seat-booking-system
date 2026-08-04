@@ -460,10 +460,10 @@ cd train-seat-booking-system
 Create a 
 
 ```
-.env file train-seat-booking-system folder
+.env 
 ```
 
-using
+file in the train-seat-booking-system folder using
 
 ```
 .env.example
