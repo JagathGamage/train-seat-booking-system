@@ -72,42 +72,29 @@ public class DataSeeder {
             // Create Stations
             // =========================
 
-            if(stationRepository.count()==0){
+            if (stationRepository.count() == 0) {
 
-                List<Station> stations =
-                        new ArrayList<>();
+                List<Station> stations = new ArrayList<>();
 
-                stations.add(
-                    createStation(
-                        "Colombo Fort",
-                        1,
-                        0)
-                );
-
-                stations.add(
-                    createStation(
-                        "Ragama",
-                        2,
-                        14)
-                );
-
-                stations.add(
-                    createStation(
-                        "Gampaha",
-                        3,
-                        28)
-                );
-
-                stations.add(
-                    createStation(
-                        "Kandy",
-                        4,
-                        120)
-                );
-
+                stations.add(createStation("Colombo Fort", 1, 0));
+                stations.add(createStation("Ragama", 2, 14));
+                stations.add(createStation("Gampaha", 3, 28));
+                stations.add(createStation("Veyangoda", 4, 45));
+                stations.add(createStation("Polgahawela", 5, 72));
+                stations.add(createStation("Peradeniya Junction", 6, 112));
+                stations.add(createStation("Kandy", 7, 120));
+                stations.add(createStation("Kadugannawa", 8, 126));
+                stations.add(createStation("Gampola", 9, 142));
+                stations.add(createStation("Nawalapitiya", 10, 158));
+                stations.add(createStation("Hatton", 11, 173));
+                stations.add(createStation("Talawakele", 12, 183));
+                stations.add(createStation("Nanu Oya", 13, 198));
+                stations.add(createStation("Haputale", 14, 247));
+                stations.add(createStation("Bandarawela", 15, 260));
+                stations.add(createStation("Ella", 16, 271));
+                stations.add(createStation("Badulla", 17, 292));
 
                 stationRepository.saveAll(stations);
-
             }
 
 
