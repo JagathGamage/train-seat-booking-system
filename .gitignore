@@ -6,3 +6,9 @@ target/
 
 *.log
 frontend\node_modules
+
+# Environment variables
+.env
+
+# Secrets
+*.env
