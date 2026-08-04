@@ -457,10 +457,10 @@ cd train-seat-booking-system
 
 ## Create Environment File
 
-Create
+Create a 
 
 ```
-.env
+.env file train-seat-booking-system folder
 ```
 
 using
@@ -599,7 +599,6 @@ This approach provides:
 - Seat Hold Timeout
 - Live Train Tracking
 - Passenger Booking History
-- Admin Dashboard
 - Fare Discounts & Promotions
 
 ---
